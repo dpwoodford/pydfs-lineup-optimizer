@@ -7,6 +7,7 @@ class Site:
     DRAFTKINGS_CAPTAIN_MODE = 'DRAFTKINGS_CAPTAIN_MODE'
     FANDUEL_SINGLE_GAME = 'FANDUEL_SINGLE_GAME'
     DRAFTKINGS_TIERS = 'DRAFTKINGS_TIERS'
+    DRAFTSTARS = "DRAFTSTARS"
 
 
 class Sport:
@@ -24,3 +25,6 @@ class Sport:
     NASCAR = 'NASCAR'
     TENNIS = 'TENNIS'
     CS = 'CS'
+    AFL = 'AFL'
+    NRL = 'NRL'
+    

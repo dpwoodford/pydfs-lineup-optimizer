@@ -28,8 +28,8 @@ class CSVImporter:
     @classmethod
     def get_player_extra(cls, row: Dict[str, str]) -> Dict[str, Any]:
         roster_order = row.get('Roster Order')
-        fppg_floor = row.get('Projection Floor')
-        fppg_ceil = row.get('Projection Ceil')
+        fppg_floor = row.get('Floor')
+        fppg_ceil = row.get('Ceiling')
         return {
             'max_exposure': cls._parse_percents(row.get('Max Exposure')),
             'min_exposure': cls._parse_percents(row.get('Min Exposure')),

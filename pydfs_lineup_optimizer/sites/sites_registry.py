@@ -14,6 +14,7 @@ class SitesRegistry:
     @classmethod
     def get_settings(cls, site: str, sport: str) -> Type[BaseSettings]:
         try:
+            print (cls.SETTINGS_MAPPING['Draftstars'])
             return cls.SETTINGS_MAPPING[site][sport]
         except KeyError:
             raise NotImplementedError

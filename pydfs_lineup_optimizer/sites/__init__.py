@@ -4,3 +4,4 @@ from pydfs_lineup_optimizer.sites.fanball import *  # type: ignore
 from pydfs_lineup_optimizer.sites.fanduel import *  # type: ignore
 from pydfs_lineup_optimizer.sites.fantasy_draft import *  # type: ignore
 from pydfs_lineup_optimizer.sites.yahoo import *  # type: ignore
+from pydfs_lineup_optimizer.sites.draftstars import * # type: ignore
